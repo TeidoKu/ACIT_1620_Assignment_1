@@ -1,0 +1,260 @@
+/*General layouts*/
+
+body {
+	background-color:#9CCFD8;
+	margin: 0px;
+}
+
+
+ul, ol, dl { 
+	color: #FFFFFF;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a img { 
+	border: none;
+}
+
+p{
+	font-family: 'Scope One', serif;
+	color: #000000;
+	
+}
+ 
+
+/*General layouts for horizontal Nav Bar section*/
+.horizonnav{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	background-color:#E0DEF4;
+	height: 65px;
+	width: 100%;
+}
+
+.SideBarRelase{
+	font-size: 18px;
+	text-decoration: none;
+	border: none;
+	background-color: #E0DEF4;
+	
+}
+
+.navbar{
+	display:flex;
+	margin-left:auto;
+	flex-direction:row;
+	list-style-type:none;
+	font-size:20px;
+	font-weight:900;
+	margin-right:7px;
+}
+
+.navbar > li {
+	display:inline;
+	margin-left:17px;
+}
+
+
+.backtoindex {
+	margin-right: auto;
+	font-size:20px;
+	font-weight:900;
+}
+
+.backtoindex>li{
+	flex-direction:row;
+	list-style-type: none;
+	font-weight:900;
+
+}
+
+a:link {
+	font-family: 'Scope One', serif;
+	color:#000000;
+	text-decoration:none;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+
+}
+a:hover, a:active, a:focus { 
+	text-decoration:underline;
+}
+
+/*end of horizontal navbar*/
+
+
+/*main contant page*/
+
+/*vertical nav var*/
+.h2blog{
+	text-align: right;
+}
+
+
+.vnavCont{
+	width: 175px;
+	height:700px;
+	
+}
+.blogveticalnav{
+	display: flex;
+	width:175px;
+	height:100%;
+	background-color: #E0DEF4;
+}
+.vnavtitle{
+	height: 25px;
+	margin-left:15px;
+	color:#000000;
+}
+
+.vnav_ul{
+	padding-top: 22px;
+	margin-left: -98px;
+	}
+
+.vnav_ul > li{
+	list-style-type: none;
+	color: #000000;
+	margin-top: 9px;
+}
+
+/* end of vertical nav var*/
+.bcontant{
+	display:flex;
+	flex-direction:row;
+	align-content: center;
+	height: 690px;
+}
+
+.textbox{
+	display: flex;
+	flex-direction:column;
+	width: 65%;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+textarea{
+	margin-left: 0px;
+	resize: none;
+}
+.blog_text :first-child{
+	margin-top:0px;
+}
+
+.Save_delet_botton{
+	display: inline;
+	margin-right:7px;
+
+}
+.SDCont{
+	width:100%;
+	display:flex;
+}
+
+/*end of main contant*/
+
+
+
+.newtext{
+	margin-top: 70px;
+	margin-left: 185px;
+	
+}
+.newnote{
+	text-decoration: none;
+	border: none;
+	background-color: #9CCFD8;
+	font-size: 25px;
+	
+	
+}
+
+
+
+
+
+/*footer*/
+.footer{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 580px){
+
+
+.newtext{
+	margin-top: 70px;
+	margin-left: 0px;
+}
+	
+.navbar{
+	display:flex;
+	margin-left:auto;
+	flex-direction:row;
+	list-style-type:none;
+	font-size:17px;
+	font-weight:900;
+	margin-right:7px;
+}
+
+.navbar > li {
+	display:inline;
+	margin-left:17px;
+}
+
+
+.backtoindex {
+	margin-right: auto;
+	font-size:17px;
+	font-weight:900;
+}
+
+.backtoindex>li{
+	flex-direction:row;
+	list-style-type: none;
+	font-weight:900;
+
+}
+	
+
+.blogveticalnav{
+	width: 165px;
+	height:660px;
+	
+}
+.bcontant{
+	height:675px;		
+		
+		
+}
+
+.textbox{
+		margin-left: 6px;
+	}
+textarea{
+	margin-left: 0px;
+	margin-right: auto;
+	width:94%;
+	height:75%;
+	}
+	
+}
+
+
+
+
